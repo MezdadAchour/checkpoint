@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>My Shopping Cart</h1>
+    <div class="cart-items">
+      <!-- Article 1 -->
+      <div class="cart-item">
+        <div class="item-info">
+          <img src="./img/smartphone.jpg" alt="Smartphone">
+          <span>Smartphone</span>
+        </div>
+        <div class="quantity">
+          <button class="decrement">-</button>
+          <span class="qty">1</span>
+          <button class="increment">+</button>
+        </div>
+        <button class="like-btn">&#10084;</button>
+        <button class="remove-btn">Remove</button>
+      </div>
+
+      <!-- Article 2 -->
+      <div class="cart-item">
+        <div class="item-info">
+          <img src="./img/laptop.jpg" alt="Laptop">
+          <span>Laptop</span>
+        </div>
+        <div class="quantity">
+          <button class="decrement">-</button>
+          <span class="qty">1</span>
+          <button class="increment">+</button>
+        </div>
+        <button class="like-btn">&#10084;</button>
+        <button class="remove-btn">Remove</button>
+      </div>
+
+      <!-- Article 3 -->
+      <div class="cart-item">
+        <div class="item-info">
+          <img src="./img/headphones.jpg" alt="Headphones">
+          <span>Headphones</span>
+        </div>
+        <div class="quantity">
+          <button class="decrement">-</button>
+          <span class="qty">1</span>
+          <button class="increment">+</button>
+        </div>
+        <button class="like-btn">&#10084;</button>
+        <button class="remove-btn">Remove</button>
+      </div>
+    </div>
+    <div class="total">
+      <span>Total:</span>
+      <span id="total-price">$0</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
